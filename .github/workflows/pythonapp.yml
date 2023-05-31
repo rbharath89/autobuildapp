@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build and Push
-      uses: mr-smithers-excellent/docker-build-push@v4
+      uses: bharathr89/docker-build-push@v4
       with:
         image: bharathr89/test-app
         registry: docker.io
